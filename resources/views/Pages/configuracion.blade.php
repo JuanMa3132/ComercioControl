@@ -94,7 +94,7 @@
                          <ul class="dropdown-menu" >
                              <li><a class="dropdown-item" href="#">Mensajes</a></li>
                              <li><a class="dropdown-item" href="#">Editar Perfil</a></li>
-                             <li><a class="dropdown-item" href="../login.html">Cerrar sesion</a></li>
+                             <li><a class="dropdown-item" href="{{route('logout')}}">Cerrar sesion</a></li>
                            </ul>
                      </div>
                   </div>

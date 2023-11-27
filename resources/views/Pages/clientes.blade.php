@@ -137,342 +137,39 @@
 
 
                     <td class="people">
-                        <img src="../Recursos/imagenes/girl-2215071_1280.jpg" alt="">
+                        <img src="#" alt="IMG">
                         <div class="people-de">
                             <h5>Gaspar Salazar</h5>
                             <p>Gasparsal@gmail.com</p>
-                        
-
                         </div>
                     </td>
-
-                    <td class="people-id ">
-                
-                           
+                    <td class="people-id ">   
                             <h5>423464</h5>
-                           
-                      
                     </td>
-
                     <td class="people-des">
-                            <h5>Vendedor</h5>
-                                
-
-                       
+                            <h5>Vendedor</h5> 
                     </td>
-
                     <td class="people-adress">
-                        <h5>calle 55a #89a-11</h5>
-                        
-            
-                    
+                        <h5>calle 55a #89a-11</h5> 
                 </td>
-
-
                     <td class="people-contact">
                         <h5>311 8904422</h5>
-                        
-                    
-
-                    
                 </td>
-
                 <td class="people-status">
                     <p>Activo</p>
-                    
-                
-
-               
-            </td>
-
+                </td>
             <td class="edit">
-
-
-                <button class="btn primary">Edit</button>
-                
-
-                <button class="btn secondary">Borrar</button>
-
-            
-        </td>
-
-
-
-
-                    
-                    </tr>
-                    <tr>
-                
-
-
-                        <td class="people">
-                            <img src="../Recursos/imagenes/pexels-andrea-piacquadio-3771807.jpg" alt="">
-                            <div class="people-de">
-                                <h5>Gaspar Salazar</h5>
-                                <p>Gasparsal@gmail.com</p>
-                            
-    
-                            </div>
-                        </td>
-    
-                        <td class="people-id ">
-                    
-                               
-                                <h5>423464</h5>
-                               
-                          
-                        </td>
-    
-                        <td class="people-des">
-                                <h5>Vendedor</h5>
-                                    
-    
-                           
-                        </td>
-    
-                        <td class="people-adress">
-                            <h5>calle 55a #89a-11</h5>
-                            
-                
-                        
-                    </td>
-    
-    
-                        <td class="people-contact">
-                            <h5>311 8904422</h5>
-                            
-                        
-    
-                        
-                    </td>
-    
-                    <td class="people-status">
-                        <p>Activo</p>
-                        
-                    
-    
-                   
-                </td>
-    
-                <td class="edit">
-        
-
-                <button class="btn primary">Edit</button>
-
-                <button class="btn secondary">Borrar</button>
-                
-                  
-                
+                <button class="btn btn-warning">Edit</button>
+                <button class="btn btn-danger">Borrar</button>  
             </td>
-    
-    
-    
-    
-                        
-                        </tr><tr>
-                
-
-
-                            <td class="people">
-                                <img src="../Recursos/imagenes/pexels-emmy-e-2381069.jpg" alt="">
-                                <div class="people-de">
-                                    <h5>Gaspar Salazar</h5>
-                                    <p>Gasparsal@gmail.com</p>
-                                
-        
-                                </div>
-                            </td>
-        
-                            <td class="people-id ">
-                        
-                                   
-                                    <h5>423464</h5>
-                                   
-                              
-                            </td>
-        
-                            <td class="people-des">
-                                    <h5>Vendedor</h5>
-                                        
-        
-                               
-                            </td>
-        
-                            <td class="people-adress">
-                                <h5>calle 55a #89a-11</h5>
-                                
-                    
-                            
-                        </td>
-        
-        
-                            <td class="people-contact">
-                                <h5>311 8904422</h5>
-                                
-                            
-        
-                            
-                        </td>
-        
-                        <td class="people-status">
-                            <p>Activo</p>
-                            
-                        
-        
-                       
-                    </td>
-        
-                    <td class="edit">
-                 <button class="btn primary">Edit</button>
-
-                <button class="btn secondary">Borrar</button>
-        
-                    
-                </td>
-        
-        
-        
-        
-                            
-                            </tr><tr>
-                
-
-
-                                <td class="people">
-                                    <img src="../Recursos/imagenes/pexels-andrea-piacquadio-3771807.jpg" alt="">
-                                    <div class="people-de">
-                                        <h5>Gaspar Salazar</h5>
-                                        <p>Gasparsal@gmail.com</p>
-                                    
-            
-                                    </div>
-                                </td>
-            
-                                <td class="people-id ">
-                            
-                                       
-                                        <h5>423464</h5>
-                                       
-                                  
-                                </td>
-            
-                                <td class="people-des">
-                                        <h5>Vendedor</h5>
-                                            
-            
-                                   
-                                </td>
-            
-                                <td class="people-adress">
-                                    <h5>calle 55a #89a-11</h5>
-                                    
-                        
-                                
-                            </td>
-            
-            
-                                <td class="people-contact">
-                                    <h5>311 8904422</h5>
-                                    
-                                
-            
-                                
-                            </td>
-            
-                            <td class="people-status">
-                                <p>Activo</p>
-                                
-                            
-            
-                           
-                        </td>
-            
-                        <td class="edit">
-                 <button class="btn primary">Edit</button>
-
-                <button class="btn secondary">Borrar</button>
-            
-                        
-                    </td>
-            
-            
-            
-            
-                                
-                                </tr><tr>
-                
-
-
-                                    <td class="people">
-                                        <img src="../Recursos/imagenes/pexels-andrea-piacquadio-3771807.jpg" alt="">
-                                        <div class="people-de">
-                                            <h5>Gaspar Salazar</h5>
-                                            <p>Gasparsal@gmail.com</p>
-                                        
-                
-                                        </div>
-                                    </td>
-                
-                                    <td class="people-id ">
-                                
-                                           
-                                            <h5>423464</h5>
-                                           
-                                      
-                                    </td>
-                
-                                    <td class="people-des">
-                                            <h5>Vendedor</h5>
-                                                
-                
-                                       
-                                    </td>
-                
-                                    <td class="people-adress">
-                                        <h5>calle 55a #89a-11</h5>
-                                        
-                            
-                                    
-                                </td>
-                
-                
-                                    <td class="people-contact">
-                                        <h5>311 8904422</h5>
-                                        
-                                    
-                
-                                    
-                                </td>
-                
-                                <td class="people-status">
-                                    <p>Activo</p>
-                                    
-                                
-                
-                               
-                            </td>
-                
-                            <td class="edit">
-                          <button class="btn primary">Edit</button>
-
-                           <button class="btn secondary">Borrar</button>
-
-                
-                            
-                        </td>
-                
-        
-                                    
-                                    </tr>
-
-                </tbody>
+            </tbody>
                       
             </table>
 <ul class="pagination">
   <li><a href="#">«</a></li>
-  <li><a href="#">1</a></li>
+  <li><a class="active" href="#">1</a></li>
   <li><a href="#">2</a></li>
-  <li><a class="active" href="#">3</a></li>
+  <li><a href="#">3</a></li>
   <li><a href="#">4</a></li>
   <li><a href="#">5</a></li>
   <li><a href="#">6</a></li>

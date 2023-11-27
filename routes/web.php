@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\VentaController;
 
 Route::get('/', function () {
     return view('Bienvenida.index');
@@ -26,6 +27,8 @@ Route::middleware(['auth'])->group(function () {
     Route::view('/soporte', "Pages.soporte")->name('soporte');
     Route::view('/editar-perfil', "Pages.editProfile")->name('editar-perfil');
     Route::post('/edit-profile', [ProfileController::class, 'updateProfile'])->name('Pages.edit-profile');
+    Route::view('/form', "Pages.venta.form")->name('formulario');
+    Route::resource('ventas', VentaController::class);
 });
 
 Route::get('css/estilos-personalizados/{filename}', function ($filename) {

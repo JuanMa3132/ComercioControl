@@ -22,7 +22,7 @@
 
 
 </head>
-<body>
+<body id="body">
     <section id="interface">
         <section id="menu" >
             <div class="menu-flex">
@@ -99,19 +99,8 @@
                     <div class="container-container3">
                         <div class="content">
                             <div class="container-container2">
-                                <div class="precios" >
-                                <button class="new-facture-btn" >Nueva venta</button>
-                                <div class="precios-container text-light" >
-                                    <div class="scaner">
-                                        <h1>Lector de Código de Barras</h1>
-                                        <label for="codigo_barras">Escanea el código de barras:</label>
-                                    </div>
-
-                                    <input type="text" id="codigo_barras" autofocus>
-                                    <p>Precio del producto: <span id="precio_producto" class="precio-grande">-</span></p>
-                                    <p>Nombre del producto: <span id="nombre_producto" class="nombre-producto">-</span></p>
-
-                                </div>
+                                <button class="new-facture-btn open-modal-btn" onclick="#" href="#" >Nueva venta</button>
+                                {{-- @include('components.nueva-venta-modal') --}}
                             </div>
                                 <hr>
                 
@@ -138,80 +127,40 @@
                             <th>VENDEDOR</th>
                             <th>ELIMINAR</th>
                         </thead>
-                                <tbody>
-                                @foreach($ventas as $venta)
-                                    <tr>
-                                
-                                    <td class="facture-data">
-                                       
-                                        <div class="facture-code">
-                                            {{$venta->id}}
-                                    </div>
-                                            
-                                        
-                
-                                        
-                                    </td>
-                
-                             
-                                       
-                                        <td class="facture-date">
-                                            {{$venta->Fecha}}
-                                            
-                                        
-                
-                                      
-                                    </td>
-                
-                                  
-                                       
-                                        <td class="facture-customer">
-                                            {{$venta->Cliente}}
-                                            
-                                        
-                
-                                       
-                                    </td>
-                
-                                    
-                                       
-                                        <td class="facture-Total amount">
-                                            ${{ number_format($venta->Montototal, 0, ',', '.') }}
-                                            
-                                        
-                
-                                        </td>
-                                   
-                
-                                    
-                                       
-                                        <td class="facture-seller">
-                                             {{$venta->Vendedor}}
-                                            
-                                        
-                
-                                        
-                                    </td>
-                
-                
-                
-                                   
-                                       
-                                        <td class="facture-delete">
-                                        <form action="{{ url('/venta/'.$venta->id) }}" method="POST">
-                @csrf
-                @method('DELETE')
-                <input type="submit" onclick="return confirm('¿Estas seguro de borrar los Datos?')" value="Eliminar">
-                </form>
-                                            
-                                        
-                
-                                        
-                                  
-                                                  
-                                                 </tr>
-                                @endforeach
-                                </tbody>
+                        <tbody>
+                            <tr>
+                        
+        
+        
+
+                            <td class="people-id ">   
+                                    <h5>423464</h5>
+                            </td>
+                            <td class="people-des">
+                                    <h5>15/11/2024</h5> 
+                            </td>
+                            <td class="people">
+                                <img src="#" alt="IMG">
+                                <div class="people-de">
+                                    <h5>Gaspar Salazar</h5>
+                                    <p>Gasparsal@gmail.com</p>
+                                </div>
+                            </td>
+                            <td class="monto">
+                                <h5>100.000</h5>
+                        </td>
+                        <td class="people">
+                            <img src="#" alt="IMG">
+                            <div class="people-de">
+                                <h5>Gaspar Salazar</h5>
+                                <p>Gasparsal@gmail.com</p>
+                            </div>
+                        </td>
+
+                    <td class="edit">
+                        <button class="btn btn-danger">Borrar</button>  
+                    </td>
+                    </tbody>
                              </table>
                 
                              
