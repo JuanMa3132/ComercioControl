@@ -33,6 +33,6 @@
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/comercio-control.git
+   git clone https://github.com/JuanMa3132/comercio-control.git
    cd comercio-control
 
